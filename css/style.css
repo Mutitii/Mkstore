@@ -1,0 +1,24 @@
+.popup{
+    background-color: antiquewhite;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+.open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(1);
+}
+
+.colse-end{
+    background-color: rgb(103, 100, 100);
+    margin-left: 200px;
+    cursor: pointer;
+    border: 1px solid rgb(103, 100, 100);
+    width: 25px;
+    border-radius: 50%;
+}
